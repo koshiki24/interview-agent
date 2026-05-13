@@ -30,7 +30,7 @@ function Auth({isModel = false}) {
         
 
 
-        const result = await axios.post("http://localhost:8000/api/auth/google" , {
+        const result = await axios.post("https://interview-agent-jsiu.onrender.com/api/auth/google" , {
             name: user.displayName , email:user.email 
         } , 
         { withCredentials:true } );
