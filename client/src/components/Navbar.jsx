@@ -22,7 +22,7 @@ function Navbar() {
 
     const handleLogout = async () => {
         try {
-            await axios.get("http://localhost:8000//api/auth/logout" , {withCredentials:true})
+            await axios.get("interview-agent-jsiu.onrender.com//api/auth/logout" , {withCredentials:true})
             dispatch(setUserData(null))
             setShowCreditPopup(false)
             setShowUserPopup(false)
