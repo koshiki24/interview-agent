@@ -23,7 +23,7 @@ function Step1SetUp({ onStart }) {
   const [skills, setSkills] = useState([]);
   const [resumeText, setResumeText] = useState("");
   const fileRef = useRef();
-  const serverUrl = "http://localhost:8000"; // or your backend URL
+  const serverUrl = "https://interview-agent-jsiu.onrender.com" // or your backend URL
   const [analysisDone, setAnalysisDone] = useState(false);
   const [analyzing, setAnalyzing] = useState(false);
   const handleUploadResume = async () => {
