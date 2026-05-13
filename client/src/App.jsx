@@ -2,7 +2,7 @@ import React from 'react'
 import { Route, Routes } from 'react-router-dom'
 import Home from './pages/Home';
 import Auth from './pages/Auth';
-import Dashboard from "./pages/Dashboard";
+import Dashboard from "./pages/dashboard";
 import { useEffect } from 'react';
 import axios from 'axios';
 import { setUserData } from './redux/userSlice';
