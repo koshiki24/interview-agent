@@ -7,7 +7,7 @@ import { FaMicrophone, FaMicrophoneSlash } from "react-icons/fa";
 import axios from "axios";
 import {BsArrowLeft, BsArrowRight } from 'react-icons/bs';
 
-const ServerUrl = "http://localhost:8000";
+const ServerUrl = "interview-agent-jsiu.onrender.com";
 
 
 
