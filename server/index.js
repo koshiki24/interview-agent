@@ -18,10 +18,8 @@ app.use(cookieParser());
 
 
 app.use(cors({
-    origin:[
-        "http://localhost:5173",
-        "https://interview-agent-client-73vf.onrender.com"
-        ],
+    origin:
+        "https://interview-agent-client-73vf.onrender.com",
     credentials:true
     //methods: ["GET", "POST", "PUT", "DELETE"]
 }));
