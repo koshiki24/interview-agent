@@ -14,7 +14,7 @@ import InterviewHistory from './pages/InterviewHistory.jsx';
 import InterviewReport from './pages/InterviewReport.jsx';
 
 
-export const ServerUrl = "http://localhost:8000";
+export const ServerUrl = "https://interview-agent-jsiu.onrender.com";
 axios.defaults.withCredentials = true;
 
 
