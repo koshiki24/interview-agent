@@ -42,8 +42,7 @@ function Step2Interview({ interviewData, onFinish }) {
   try {
     setIsSubmitting(true);
 
-    const result = await axios.post(
-      "/interview-agent-jsiu.onrender.com/api/interview/submit-answer",
+    const result = await axios.post("https://interview-agent-jsiu.onrender.com/api/interview/submit-answer",
       {
         interviewId,
         question: currentQuestion?.question,
