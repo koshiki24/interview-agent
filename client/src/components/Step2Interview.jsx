@@ -7,7 +7,7 @@ import { FaMicrophone, FaMicrophoneSlash } from "react-icons/fa";
 import axios from "axios";
 import {BsArrowLeft, BsArrowRight } from 'react-icons/bs';
 
-const ServerUrl = "interview-agent-jsiu.onrender.com";
+const ServerUrl = "https://interview-agent-jsiu.onrender.com";
 
 
 
@@ -42,7 +42,7 @@ function Step2Interview({ interviewData, onFinish }) {
   try {
     setIsSubmitting(true);
 
-    const result = await axios.post("https://interview-agent-jsiu.onrender.com/api/interview/submit-answer",
+    const result = await axios.post(`${ServerUrl}/api/interview/submit-answer`,
       {
         interviewId,
         question: currentQuestion?.question,
